@@ -34,7 +34,7 @@ jobs:
       - name: install algolia python client  # the container GitHub spins up won        't have the algolia client installed, so we install it
         run: pip install --upgrade 'algoliasearch>=2.0,<3.0' 
       - name: run algolia index uploader  # run the python script using our se      crets
-        run: python3 algolia-index-upload.py -f public/index.json -a ${{ secrets.ALGOLIA_APP_ID }} -k ${{ secrets.ALGOLIA_ADMIN_API_KEY }} -n ${{ secrets.ALGOLIA_INDEX_NAME }
+        run: python3 algolia-index-upload.py -f public/index.json -a ${{ secrets.ALGOLIA_APP_ID }} -k ${{ secrets.ALGOLIA_ADMIN_API_KEY }} -n ${{ secrets.ALGOLIA_INDEX_NAME }}
         runs-on: ubuntu-latest
 
   close_pull_request_job:
