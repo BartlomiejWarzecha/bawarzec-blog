@@ -38,10 +38,10 @@ disqusShortname = "enable"
   enable_mathjax    = false
 
   # Enable / Disable algolia search
-  algolia_search    = false
-  algolia_appId     = "45CEN6X6AT"
-  algolia_apiKey    = "16030625f1a4d0dd3b8aefd794fd4cf1"
-  algolia_indexName = "bilberry-hugo-theme"
+  algolia_search    = true
+  algolia_appId     = "V0BFXPJRHM"
+  algolia_apiKey    = "5291b8a6b4bc97493dae7853e44b0466"
+  algolia_indexName = "bawarzec"
     # Set this option to false if you want to search within all articles in all languages at once
     algolia_currentLanguageOnly = true
 
